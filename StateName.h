@@ -1,0 +1,10 @@
+#pragma once
+
+enum StateName
+{
+	START = 0,
+	READ_OPERAND,
+	OPEN_BRACKET,
+	READ_OPERATOR,
+	CLOSE_BRACKET
+};
